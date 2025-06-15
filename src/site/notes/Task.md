@@ -34,6 +34,6 @@ Deepseek, 豆包, chatgpt, 文心一言, gemini, 千问通义
 筛选出最优的提示词，效果最好的模型。
 1
 2
-3
+3 ceshiP
 4
 4
