@@ -210,7 +210,7 @@ As an alternative, regression trees have become a popular machine learning appro
 
 [Figure 1](https://academic.oup.com/rfs/article/33/5/2223/) shows an example with two predictors, “size” and “b/m.” The left panel describes how the tree assigns each observation to a partition based on its predictor values. First, observations are sorted on size. Those above the breakpoint of 0.5 are assigned to Category 3. Those with small size are then further sorted by b/m. Observations with small size and b/m below 0.3 are assigned to Category 1, while those with b/m above 0.3 go into Category 2. Finally, forecasts for observations in each partition are defined as the simple average of the outcome variable’s value among observations in that partition.
 
-![Regression tree example](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009f1.jpeg?Expires=1752253962&Signature=K7fpqoFVutS6hQy5yHtRspW6sB3lPBPkLl9BX0ZvjDzLmBtV-8yIV3YHhHPhEPHexb44EiwWGZXB2L8hKrNEAd7KSlF7pmvXTiqvqZmYNa~8O3fCUMitmpsrMZT7XKRzjLJgf57wCDVypxnmDzal6oy8Pby0nGSdxuGNswk5LOsO44a~2aSihNGKGFcDeozP10wBzXLcplNEkJeY3BW4XQKBEUOmu7qhoR9cTDLjW~Q3KAgUszjmfx1rzmFdFR1Z59kKuH9IYzJeoW~X97SxtqiDHFCLH40Uirp-ZOEFDZ3UOqvYAduFj~I1yJQ6jCMpBfvEmMFlJEi35y0ofA8Arw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![036b8df5f9c47b3ceeffc5c74343c9a5_MD5.jpg](/img/user/036b8df5f9c47b3ceeffc5c74343c9a5_MD5.jpg)
 
 Figure 1
 
@@ -250,7 +250,7 @@ Our analysis focuses on traditional “feed-forward” networks. These consist o
 
 The number of units in the input layer is equal to the dimension of the predictors, which we set to four in this example (denoted $z1,...,z4$ ⁠). The left panel shows the simplest possible network that has no hidden layers. Each of the predictor signals is amplified or attenuated according to a 5-dimensional parameter vector, $θ$ ⁠, that includes an intercept and one weight parameter per predictor. The output layer aggregates the weighted signals into the forecast $θ0+∑k=14zkθk$ ⁠; that is, the simplest neural network is a linear regression model.
 
-![Neural networks](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009f2.jpeg?Expires=1752253962&Signature=aniTIJNtUSeUXGqkGNRlHRkfaAv4HxAdRBDCtAz8m4UEAKANBGf~AGPN~rxcUxqHD54cRnyyschPxS9auc-n11n~DpRDrPIMEXcamEnwAz3dM-CrjDW-4zIHtD8P5z6vb8S8WzSxcXh6YjnY44Jvd3a4K7vzDY3Bi1Na7kdCoVTHcrrhCEoOUG8tNjbkRFdYG2jFVXcJAHYYGQ~4pRwfL6NBTaJQdHBEwwOAx6EvX26Fs97HhBbPIR8SX2xDzbGwAq0xuTk-Vmnq8VZ774Dxtfik-~MNV7ix983NZH~el9Bwdb1aurj-pmF3rkDguZMcbN-06NkOGXa1bbBbhPe5Pg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![563d0b439a385d6b20a947ad56bfa868_MD5.jpg](/img/user/563d0b439a385d6b20a947ad56bfa868_MD5.jpg)
 
 Figure 2
 
@@ -352,7 +352,7 @@ Table 1
 
 [Open in new tab](https://academic.oup.com/view-large/203502842)
 
-| ![graphic](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009t1.jpeg?Expires=1752253962&Signature=R3h6GUuN~J6nC53-3uAY6m1Yt2pbfsBDBcslfP7Z-MhL~YLCqd94D54XsBZ-y35JVADaWRDpjbHai6dl3phVFKilYZyRnxKuhQ9mcFho46tVQb0rJ-fa98VE~r7iVhpMiSNbBycK-15qddiB81rfwOKyrIOp6nkCJjp1GGu-8G4xO4M2ak9cr5cnGdiLnjZ-zLzvxnG5QWeWXXJHwM8~4i8CtKmnvRdm16apeg-Mdw0gx5qz1Rg8z2Pv0s5sTns3iELlSsL8at-GZfyHR0Lunp~FZ1m7MjP3xKpif907owWn83acypzyL8bRhSU-sUKWMJ3jOWVpgc~YFlW2yFNJsQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA) |
+| ![230c00dc7fb73ee26c594274bee320be_MD5.jpg](/img/user/230c00dc7fb73ee26c594274bee320be_MD5.jpg)|
 | --- |
 
 In this table, we report monthly $Roos2$ for the entire panel of stocks using OLS with all variables (OLS), OLS using only size, book-to-market, and momentum (OLS-3), PLS, PCR, elastic net (ENet), generalize linear model (GLM), random forest (RF), gradient boosted regression trees (GBRT), and neural networks with 1 to 5 layers (NN1–NN5). “+H” indicates the use of Huber loss instead of the $l2$ loss. We also report these $Roos2$ within subsamples that include only the top-1,000 stocks or bottom-1,000 stocks by market value. The lower panel provides a visual comparison of the $Roos2$ statistics in the table (omitting OLS because of its large negative values).
@@ -361,7 +361,7 @@ In this table, we report monthly $Roos2$ for the entire panel of stocks using OL
 
 The first row of [Table 1](https://academic.oup.com/rfs/article/33/5/2223/) reports $Roos2$ for the entire pooled sample. The OLS model using all 920 features produces an $Roos2$ of $−3.46%$ ⁠, indicating it is handily dominated by applying a naive forecast of zero to all stocks in all months. This may be unsurprising as the lack of regularization leaves OLS highly susceptible to in-sample overfit. However, restricting OLS to a sparse parameterization, either by forcing the model to include only three covariates (size, value, and momentum), or by penalizing the specification with the elastic net—generates a substantial improvement over the full OLS model (⁠ $Roos2$ of 0.16% and 0.11% respectively). [Figure 3](https://academic.oup.com/rfs/article/33/5/2223/) summarizes the complexity of each model at each reestimation date. The upper left panel shows the number of features to which elastic net assigns a nonzero loading. In the first 10 years of the test sample, the model typically chooses fewer than five features. After 2,000, the number of selected features rises and hovers between 20 and 40.
 
-![Time-varying model complexity](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009f3.jpeg?Expires=1752253962&Signature=sjtRlFlYKVfHkWKA4YMb~Dp6zJ06bD1WmjDAsGSroir7dTOZ06Sl88hA0ljNrAisX~qMtKfei-1JJi0jEB73ibSlX2Phf-SURyUQiNCpcIrU8XOs7PZPyWGzwEh6avhUJQFmRfi1Km-P0RlLkYDIvDcxHT8O1O0~~p5Bnvqst65BCwBj1-tqHDPGa97Sa1vXFLqsXvUS7XbINqpy3Ws3g-XawTfsFe6R9rHia1ECVjCmT8gk04KB3vJP2fZ54jhvECdqDsSERvERSkImU3sAfqiTxe037S2f6teivnAdu6mxEEeQ7Mdzfqm0sxhFs7oOLVR1MBheyUTOEK-OZX9Xrw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![e5c9d896f1078b4454fb30cde03d504d_MD5.jpg](/img/user/e5c9d896f1078b4454fb30cde03d504d_MD5.jpg)
 
 Figure 3
 
@@ -389,7 +389,7 @@ Table 2
 
 [Open in new tab](https://academic.oup.com/view-large/203502853)
 
-| ![graphic](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009t2.jpeg?Expires=1752253962&Signature=dSEv~7HyENfepfk8aduR0dCCrzx20PKf5~YiXn3cEJjnZAeZQPgL7nivJ1ddWk~BXZEJFoJRsJM2eDS-vZzaMvfd2W3a-I2iN6V-2COQwtXE4OtULNVIdBBEzKBE3QzYPV83WOStR8RpBkx8rmtVRgtCb6tXbcQvfd~9ogkr6E3yeoz1yFOauTmBmc8E-rTiKlYTa8fzxnEHunArHXTB2zFnP43N6bjhp0NLwmAkofLEIZJ85IkKVpzEF9yDwtUmRSg5mOD0Oq3Wz-YAJRH50rmpi9ZNormjRiSZILLscS8EKOd5eLAwRk9WfXp4Kz-3u6TEI44f4lw-NtIAK8gG5A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA) |
+| ![3e309425689f9579b671880b2fd8cd88_MD5.jpg](/img/user/3e309425689f9579b671880b2fd8cd88_MD5.jpg)|
 | --- |
 
 Annual return forecasting $Roos2$ (see the legend to [Table 1](https://academic.oup.com/rfs/article/33/5/2223/)).
@@ -423,7 +423,7 @@ The first conclusion from [Table 3](https://academic.oup.com/rfs/article/33/5/22
 
 ### 2.3 Which covariates matter?
 
-![Variable importance by model](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009f4.jpeg?Expires=1752253962&Signature=hbfjns4ADm47joL0BseIILHeN6e5-o-7dgk81q1jvy-i0vIKQjYBrhuUqbsc~pLBSzllertF1RIAIfjlAVmU-KutwHU1CKyu~u~qhlOxx9fkW8Gt6crlagRRDedPnYP20OTUd5~3AoUfloOPeiunLwOWgAj76nT4f4M08AnAdWJyzN2MABNu96BL44cpHJa1WlzEaA8ZTTdof2qprY2B7LeGCZPGxRKyECAfbwXWagMVKLhMIlsvON-ORs0xTn6Kb8zzyAu~2q~3Y4~Vh1opmrCnPYZ~lGTcBCj1Bw~3esXcwHD8KlCPHaoXEpAwgJXvCrwiFDPbInfUMB8OemX5rQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![b62c64bef1dc6736a4e3fdef8dc07773_MD5.jpg](/img/user/b62c64bef1dc6736a4e3fdef8dc07773_MD5.jpg)
 
 Figure 4
 
@@ -433,7 +433,7 @@ Variable importance for the top-20 most influential variables in each model. Var
 
 [Open in new tab](https://academic.oup.com/view-large/figure/203502858/hhaa009f4.tif) [Download slide](https://academic.oup.com/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/hhaa009f4.jpeg?Expires=1752253962&Signature=m0W8o~JVGuu263rwgGM3eepKfrmrhDKgbRgH3K2-LwQCq74dYRR0GyU5duX-RKgbN24tnKn7LUXsfpiOroRuRyACBx8e6ttyVeaw4yIgK8ebj76TEzew3RrN9xq85fgzGqrSo3AJhbtBckegBVsZ8JwE5hw~HccetUeaH4fkqC7KXy3n8dv~UkobWM7TFdENhSvXoQmeZOV5gkKbs1xsuh0CJ0L7eQCpNxkLMe9yEi4twyRNoN2fMh-OLAnwhlyE4bTF-SheZcK~YDDh1TsXSQCpXIkoo8fIkfGjPubVhGUqhDCnHIu6N7Hke7y~Lj7PrsnuyKxsTVBhUx0iuLptWg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=203502858&ar=5758276&xsltPath=~/UI/app/XSLT&imagename=&siteId=5511)
 
-![Characteristic importance](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009f5.jpeg?Expires=1752253962&Signature=BiWlz4XdfoSwDJqFapr268yoHBu3ynmlmGZR405qPI7~kNDOt2J-3Wk6~hztTJT8daZsE-bKpn3MrvAPfGq8aN0eZ5xxzgGFFBPnDC1lw-L1njbTJTgrDqTKa0UywXoSMMWvMxUYglsEpOwPJb4Vfg9hYH8iXm6HeRmaT9ObEcnShgQvbhmZgJlj20PnlkGsy1RuI8Q3MxOC8DOroWem7Jtjn2F54x1ccbxdcbzwMuCTEgwAeFU-kTfYi2M2-s2p3xofBH1Lbwb2LDYglg2ebz~GdxS88ibZIOt7lzkVVLDePfWxas9bpf~kGQv2hEHWv4fzzQfIDcAiUvxYVn~PKA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![439c77ee803a3824e2f4a87b416dbd57_MD5.jpg](/img/user/439c77ee803a3824e2f4a87b416dbd57_MD5.jpg)
 
 Figure 5
 
@@ -451,7 +451,7 @@ Table 4
 
 [Open in new tab](https://academic.oup.com/view-large/203502862)
 
-| ![graphic](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009t4.jpeg?Expires=1752253962&Signature=XuzyUslzY7-PziTgIw~Y9Yz7XQZOCtDugnY1Qw6fCqbA6tAlDw7zMXsiFSexPzn1Xu-TZNVXgGqykW4FeeX3RlUnWhs~FcYuIFu9vKzX8jPi-PtGZNLiWbCZ-tfWBQtdWrz6GfW0WTuSlQXXd0Ls83W~gfhNuc8TAQHXFAxlwzA3HON2fyuuwNsBq5ZlRH~bxvSfUaj-6S4r5aDFdp2uOTDTRGyu2ZZ9AhsnDml-rK1Gv0x85w5qdmh41YqHf8rQBkuVrybAclNV9DUZtt1ZfVkPbFUcMIEmziA59kpgjxIopdJAY6PFZPcG8DgvLPJPpnNiCQe0b-TKHdizqxRaFg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA) |
+| ![e8900212501206e440d2f764652261a3_MD5.jpg](/img/user/e8900212501206e440d2f764652261a3_MD5.jpg)|
 | --- |
 
 Variable importance for eight macroeconomic variables in each model. Variable importance is an average over all training samples. Variable importance within each model is normalized to sum to one. The lower panel provides a complementary visual comparison of macroeconomic variable importance.
@@ -472,7 +472,7 @@ Many accounting characteristics are not available at the monthly frequency, whic
 
 First, [Figure 6](https://academic.oup.com/rfs/article/33/5/2223/) illustrates that machine learning methods identify patterns similar to some well-known empirical phenomena. For example, expected stock returns are decreasing in size, increasing in past 1-year return, and decreasing in stock volatility. And, interestingly, all methods agree on a nearly exact zero relationship between accruals and future returns. Second, the (penalized) linear model finds no predictive association between returns and either size or volatility, while trees and neural networks find large sensitivity of expected returns to both of these variables. For example, a firm that drops from median size to the 20th percentile of the size distribution experiences an increase in its annualized expected return of roughly 2.4% (0.002 $×$ 12 $×$ 100), and a firm whose volatility rises from median to 80th percentile experiences a decrease of around 3.0% per year, according to NN3, and these methods detect nonlinear predictive associations. The inability of linear models to capture nonlinearities can lead them to prefer a zero association, and this can in part explain the divergence in the performance of linear and nonlinear methods.
 
-![Marginal association between expected returns and characteristics](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009f6.jpeg?Expires=1752253962&Signature=F30njEf9uKaq8xOxcexq4Wz8Gtylw8AeW7idTVVzOkcj9kShZpzuT8ZVf092oJIcojssCz0P3Fm7sYlsnXZd6x76vIEZ31YITkks~7EhBwbeSkhQKLG4gFQY2orEr8tu6rQGiOL0xVcuLi7sC6hhIcTLRAcnBPaPqpXYkw8HXR3E-PFsmqHVZGhc4SYiZWIRYFYWnHiT-~rZp~1tS6djvfWCR0u4~CFqyxy-lxrZTjbA~EiMy0nlyu0F-7HY4oosC6s5vA7iV3dvHFm5mogrtp0UW8t~ElrzHfRml7eyu7JoN1fDM2QodCdYHpPuSpJtcqUHzW3GJiXTiBDa~Od1pA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![174b593e05aa9ac29a75f1bd7d47ad39_MD5.jpg](/img/user/174b593e05aa9ac29a75f1bd7d47ad39_MD5.jpg)
 
 Figure 6
 
@@ -490,7 +490,7 @@ As a first example, we examine a set of pairwise interaction effects in NN3. [Fi
 
 The upper-left figure shows that the short-term reversal effect is strongest and is essentially linear among small stocks (blue line). Among large stocks (green line), reversal is concave, occurring primarily when the prior month return is positive. The upper-right figure shows the momentum effect, which is most pronounced among large stocks for the NN3 model.<sup><a href="https://academic.oup.com/rfs/article/33/5/2223/">37</a></sup> Likewise, on the lower-left side, we see that the low volatility anomaly is also strongest among large stocks. For small stocks, the volatility effect is hump shaped. Finally, the lower-right side shows that NN3 estimates no interaction effect between size and accruals—the size lines are simply vertical shifts of the univariate accruals curve.
 
-![Expected returns and characteristic interactions (NN3)](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009f7.jpeg?Expires=1752253962&Signature=X8bE3AVHreU0YU6uORb~oYb2bjWZ5-z4zHD14JedBbpOToJCYK1b20xsq2909BFrpkvG344eifmUHyx4H84mLoYspYcnSIf~s~G0blYU34XG8nEWxZK46obA5maMljHaUZr0yodkD2Git0w3G0dnMsjYbr9GUPQOR~wkbATxTIJtOXrEhFWe0TRVFd0BWOjmyvF9jL1yV3KZfwImgwD6kCmWc8Mj~NWjnSUy2j6Zh2oTchupxLcMgpdJoPjjWWeqaMZ9mV60q1nrZmV5iN-ZLNElNFYMyn6TOC3Yc9szWgmAI-9TqpiOYLMEzTqLvVEymmMhpbS6EZAZu7xX6iS4IQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![e04ba8303b809fe49aaff5f8ef9ebdae_MD5.jpg](/img/user/e04ba8303b809fe49aaff5f8ef9ebdae_MD5.jpg)
 
 Figure 7
 
@@ -500,7 +500,7 @@ The panels should the sensitivity of the expected monthly percentage returns (ve
 
 [Open in new tab](https://academic.oup.com/view-large/figure/203502876/hhaa009f7.tif) [Download slide](https://academic.oup.com/DownloadFile/DownloadImage.aspx?image=https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/hhaa009f7.jpeg?Expires=1752253962&Signature=QUs3pgi2tqQuDKvEHRlxWm4F~T3f1-GUsdneTdrCS8QXGCh-7zx1jCPvYUiBqTXo-lO~Q8eOwad7ZVtOlxD7ae0MnXel8A2FozrTHRvKee7swNMGAzKsy0nVfgC7E05qSS0IVWFAWiAxEnIrTAYPzareA9aEAfOa2VZmO96c8w1O8yd85CM6PoERtmxyhJaCnxFFqW0A-o9DYfPKYs8TUV91Xmqlbcw1YLhuPMfRUNpaQxmJwz0UCvjfgQIbhkI0qOwKwTv0W7KKs8WWM1XnqpYP1Bht2VvE0wfuwo4Zw4jpu8QdmN-w3NAGXFag0z7-yWrpfjTJbJpaNjvec8w9yA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&sec=203502876&ar=5758276&xsltPath=~/UI/app/XSLT&imagename=&siteId=5511)
 
-![Expected returns and characteristic/macroeconomic variable interactions (NN3)](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009f8.jpeg?Expires=1752253962&Signature=vLB9ExMEmIOsM7lsxtoCFT-Wh3ESygoXxUxLTkONICkvqZtK0atH0P62lo5qW4TSDYO2khwGpeaikvhxoiFtNM0mDKP0NDnMs61B9nKriIgGWBZ0McaX7wdfceQ7Gp~DaybW1hTO~6avYTCrfaebTdkl-j-EqfQvSSSCVMbny7aHoIxPHxA7Krhy7vfWdbqosKfmIO96KvPYySu3qUpGs-Gy1VCey3--PLYBZX7YKJzU37~ovh8HH4VNCgO0KKomGnx2SmXOQCk4H0jSSrb2mSR2N4vvBr~wo-AzikAeXNK6f2Ci8Un0ino0Fkwd7743piBof8FE-0NWPJ3VKUPAww__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![ffa8e64c3e49b125edf8f0596748c9a5_MD5.jpg](/img/user/ffa8e64c3e49b125edf8f0596748c9a5_MD5.jpg)
 
 Figure 8
 
@@ -604,7 +604,7 @@ We define the strategy’s average monthly turnover as where $wi,t$ is the weigh
 
 The bottom panel of [Table 8](https://academic.oup.com/rfs/article/33/5/2223/) reports risk-adjusted performance of machine learning portfolios based on factor pricing models. In a linear factor model, the tangency portfolio of the factors themselves represents the maximum Sharpe ratio portfolio in the economy. Any portfolio with a higher Sharpe ratio than the factor tangency portfolio possesses alpha with respect to the model. From prior work, the out-of-sample factor tangency portfolios of the Fama-French three and five-factor models have Sharpe ratios of roughly 0.8 and 1.3, respectively ([Kelly, Pruitt, and Su 2019](https://academic.oup.com/rfs/article/33/5/2223/)). It is unsurprising then that portfolios formed on the basis of machine learning forecasts earn large and significant alphas versus these models. A six-factor model (that appends a momentum factor to the Fama-French five-factor model) explains as much as 40% of the average return for strategies based on linear models, but explains only about 10% to 30% of variation in neural network-based portfolios. As a result, neural networks have information ratios ranging from 0.9 to 2.4 depending on the number of layers and the portfolio weighting scheme. Test statistics for the associated alphas are highly significant for both tree models and all neural network models.
 
-![Cumulative return of machine learning portfolios](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/rfs/33/5/10.1093_rfs_hhaa009/4/m_hhaa009f9.jpeg?Expires=1752253962&Signature=L1OtJ5p8SnaNvPI8PKMqpX9fqKzetn-1KAFDa7WIpXr2N2obodxaFSMWezBemnt9tuCNLxqwkOkBZ-DnaF9qrZEpHiJTB5b72JgP6blaq5UdLlV9V9o17dt9-qXfHWAOAydQqThdUBWc8yWmVk-7U0cx3CUZ4ybNz4nPK3NS9m3BzU7cCTzMKzEFwxJ9k-1d1Rq0t255~-Nu2gmgilYHKGSUMSmYByqHCLh5VQXqg4fx6YJ4XLB-Cr02n~o7Kgon3HrKzl~0vDDlB5ELo3MZ8ozwkAGCXgF-5Sy2hG3S5Ye~u1M2xvdpvkmMFNsCFYxYPuXWBMcvf8Txe61vwIr8Ag__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![4683830c68cd6cab34087712102c24a9_MD5.jpg](/img/user/4683830c68cd6cab34087712102c24a9_MD5.jpg)
 
 Figure 9
 
