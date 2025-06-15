@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","permalink":"/研究创新点提取/研究创新点提取-ChatGPT/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-15T22:41:52.906+08:00"}
+{"dg-publish":true,"permalink":"/研究创新点提取/研究创新点提取-ChatGPT/","dgPassFrontmatter":true,"created":"2025-06-15T22:41:52.906+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","perma[[论文基本信息提取/Gork]]link":"/ {{ filename | slug }} /","permalink":"/论文基本信息提取/论文基本信息提取-Gemini/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-15T23:10:05.345+08:00"}
+{"dg-publish":true,"permalink":"/论文基本信息提取/论文基本信息提取-Gemini/","dgPassFrontmatter":true,"created":"2025-06-15T23:10:05.345+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","permalink":"/Empirical Asset Pricing via Machine Learning/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-08T21:50:57.513+08:00"}
+{"dg-publish":true,"permalink":"/Empirical Asset Pricing via Machine Learning/","dgPassFrontmatter":true,"created":"2025-06-08T21:50:57.513+08:00"}
 ---
 
 

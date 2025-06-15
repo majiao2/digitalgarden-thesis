@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","permalink":"/结论/结论-ChatGPT/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-15T22:36:33.268+08:00"}
+{"dg-publish":true,"permalink":"/结论/结论-ChatGPT/","dgPassFrontmatter":true,"created":"2025-06-15T22:36:33.268+08:00"}
 ---
 
 

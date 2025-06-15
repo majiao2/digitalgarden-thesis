@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","permalink":"/研究问题分类标签/研究问题分类标签-ChatGPT/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-15T22:43:02.834+08:00"}
+{"dg-publish":true,"permalink":"/研究问题分类标签/研究问题分类标签-ChatGPT/","dgPassFrontmatter":true,"created":"2025-06-15T22:43:02.834+08:00"}
 ---
 
 

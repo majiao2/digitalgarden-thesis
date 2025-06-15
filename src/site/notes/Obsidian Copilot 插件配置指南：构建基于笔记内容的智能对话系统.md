@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","permalink":"/Obsidian Copilot 插件配置指南：构建基于笔记内容的智能对话系统/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-08T21:58:04.228+08:00"}
+{"dg-publish":true,"permalink":"/Obsidian Copilot 插件配置指南：构建基于笔记内容的智能对话系统/","dgPassFrontmatter":true,"created":"2025-06-08T21:58:04.228+08:00"}
 ---
 
   

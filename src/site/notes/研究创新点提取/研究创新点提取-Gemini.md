@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","permalink":"/研究创新点提取/研究创新点提取-Gemini/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-15T23:15:56.740+08:00"}
+{"dg-publish":true,"permalink":"/研究创新点提取/研究创新点提取-Gemini/","dgPassFrontmatter":true,"created":"2025-06-15T23:15:56.740+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","permalink":"/结论/结论-Gemini/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-15T23:02:49.333+08:00"}
+{"dg-publish":true,"permalink":"/结论/结论-Gemini/","dgPassFrontmatter":true,"created":"2025-06-15T23:02:49.333+08:00"}
 ---
 
 

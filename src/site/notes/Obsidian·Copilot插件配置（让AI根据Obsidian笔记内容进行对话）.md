@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","permalink":"/Obsidian·Copilot插件配置（让AI根据Obsidian笔记内容进行对话）/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-08T22:10:32.753+08:00"}
+{"dg-publish":true,"permalink":"/Obsidian·Copilot插件配置（让AI根据Obsidian笔记内容进行对话）/","dgPassFrontmatter":true,"created":"2025-06-08T22:10:32.753+08:00"}
 ---
 
 

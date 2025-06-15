@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":"false","permalink":"/论文基本信息提取/论文基本信息提取-Gork/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2025-06-15T22:49:11.024+08:00"}
+{"dg-publish":true,"permalink":"/论文基本信息提取/论文基本信息提取-Gork/","dgPassFrontmatter":true,"created":"2025-06-15T22:49:11.024+08:00"}
 ---
 
 
