@@ -7,7 +7,7 @@
 
 Obsidian的“第三方插件”搜索Copilot。
 
-首先准备好API keys，使用[硅基流动][Link 1]的API keys（填写邀请码`XDSDxSXR`可彼此赠送2000万Tokens）
+首先准备好API keys，使用[硅基流动][Link 1]的API keys（填写邀请码 `vvL8JMQq` 可彼此赠送2000万Tokens）
 
 ## 配置： 
 
